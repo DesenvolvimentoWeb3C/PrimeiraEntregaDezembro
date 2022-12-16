@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar conta</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(155, 227, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+.w50{
+    width: 50%;
+    padding-right: 15px;
+    float: left;
+}
+.box{
+    width: 930px;
+    display: flex;
+}
+.img-box{
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    border-radius: 20px  0 0 20px;
+}
+.img-box img{
+    width: 110%;
+    height: 107%;
+}
+.form-box{
+    width: 50%;
+    padding: 30px 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    border-radius: 0 18px 18px 0;
+}
+.form-box h1{
+    font-size: 30px;
+}
+.form-box p{
+    font-weight: bold;
+    color: #3D3D3D;
+}
+.form-box p a{
+    text-decoration:none;
+}
+
+
+.form-box p a:hover{
+    color: #09a120;
+}
+.form-box form{
+    margin: 20px 0;
+}
+form .input-ltr{
+    margin-bottom: 15px;
+}
+
+form .input-ltr{
+    color: #3D3D3D;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+form .input-ltr input{
+    width: 100%;
+    height: 47px;
+    background-color: rgba(255, 255, 255, 0.32);
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 20px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.5s ease;
+}
+form .input-ltr input:focus{
+    border-color: #09a120;
+}
+form .input-ltr button{
+    width: 100%;
+    height: 47px;
+    background: #4b4842f1;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+@media (max-width:930px) {
+    .img-box{display: none;}
+    .box{width: 700px;}
+    .form-box{width: 100%;border-radius: 20px;}
+}
+@media (max-width:500px) {
+    .w50{width: 100%; padding: 0;
+    }
+}
+</style>
+
+    
+</head>
+
+<body>
+    <div class="box">
+        <div class="img-box">
+            <img src="musculospeso.png">
+        </div>
+        <div class="form-box">
+            <h1>Cadastre-se na FIT</h1>
+            <form action="#">
+                <div class="input-ltr w50">
+                    <label for="name"> Primeiro nome</label>
+                    <input id="name" type="text"  required>
+                </div>
+
+                <div class="input-ltr w50">
+                    <label for="name"> Segundo nome</label>
+                    <input id="name" type="text"  required>
+                </div>
+
+                <div class="input-ltr">
+                    <label for="phone">Telefone</label>
+                    <input id="phone" type="phone" placeholder="Digite o seu telefone" required>
+                </div>
+
+                <div class="input-ltr">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite o seu email" required>
+                </div>
+
+
+                <div class="input-ltr w50">
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password"  placeholder="Digite sua senha" required>
+                </div>
+
+                <div class="input-ltr w50">
+                    <label for="confsenha">Confirmar Senha</label>
+                    <input id=confsenha" type="password"  placeholder="Confirme a senha" required>
+                </div>
+
+                <div class="input-ltr">
+                    <button>Cadastrar<a href="academia.html"></a></button>
+                </div>
+                <br> 
+                <p> Já tem uma conta?<a href="login.html">Faça login</a> </p>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
