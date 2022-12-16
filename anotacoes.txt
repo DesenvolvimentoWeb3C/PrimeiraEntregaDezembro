@@ -1,0 +1,77 @@
+tela de cadastro
+são utilizadas duas divs, uma para adicionar a imagem e outra para o formulário
+
+<p> uso de um parágrafo
+
+# não vai ter nenhuma ação
+placeholders - mensagem de dentro
+
+for= atributo
+ required: obrigatório
+
+
+1rem = 16px
+
+
+padding
+body:  vai centralizar os itens
+.w50 vai editar os itens
+
+a classe box vai ser toda a estrestura, tanto a da direita quanto a da esquerda
+
+witdh : largura
+
+definir cor da imagem ao lado
+
+definir a largura
+
+
+inicioda estilização
+
+form-box 
+está editando o texto
+
+editando o títluo h2
+editando o p de parágrafo
+editando o link de login sem detalhes
+
+definndo o tamanho das caixas de texto
+
+label:otexto
+input: editando a entrada
+border-radius : arredondar as caixas
+tamanho da fonte de dentro
+
+form.input-grupinput.focus: editando as bordas
+
+editando o botão
+
+
+
+
+
+
+
+FAZER O RESPONSIVO
+a  div vai desaparecer 
+
+pesquisar os @media
+
+.w50é uma classe
+
+
+
+
+
+
+
+
+
+
+
+
+
+background-attachment: fixed; define sea imagem rolaou não com o site
+
+
+Position significa posição 
