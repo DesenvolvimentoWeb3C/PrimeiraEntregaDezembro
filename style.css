@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(/img/img5.jpg);
+    background: linear-gradient(rgba(53, 49, 49, 0.8), rgb(49, 49, 49)), url(alongamento.png);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
